@@ -58,12 +58,13 @@ E trazendo isso para o mundo do javascript, podemos criar um programa que me lem
 function jogarLixo(dia) {
     if(dia === 'segunda'|| dia === 'quarta' || dia ==='sexta'){
         console.log('lixo organico') 
-        } else if (dia === 'terca'|| dia === 'quinta') {
-            console.log('lixo reciclavel')
-        } else {
-            console.log('nao pode jogar lixo')
-        }  
-        return dia 
+    } else if (dia === 'terca'|| dia === 'quinta') {
+        console.log('lixo reciclavel')
+    } else {
+        console.log('nao pode jogar lixo')
+    }  
+    
+    return dia 
 }
 
 let qualTipoJogarHoje = jogarLixo('sabado')
@@ -202,19 +203,23 @@ Atenção para as palavras reservadas case, break e default.
 
 | Exemplo 07 | Descrição |
 | --- | --- |
-| `Fatorial` | Crie uma função que irá receber um número e retornar o fatorial dele. por exemplo:  3! = 3 * 2 * 1 // 6 |
+| `Multiplica` | Crie uma função que recebe 2 parâmetros e retorna a multiplicação entre else. |
 
 | Exemplo 08 | Descrição |
 | --- | --- |
-| `Multiplica` | Crie uma função que recebe 2 parâmetros e retorna a multiplicação entre else. |
+| `Porcentagem` | Crie uma função que calcula 5% de desconto retornando o valor do desconto.|
 
 | Exemplo 09 | Descrição |
 | --- | --- |
-| `Porcentagem` | Crie uma função que calcula 5% de desconto retornando o valor do desconto.|
+| `Conversor de moeda` | Crie uma função que irá converter uma quantia de real para dolar utilizando a cotação do dia. |
 
 | Exemplo 10 | Descrição |
 | --- | --- |
-| `Conversor de moeda` | Crie uma função que irá converter uma quantia de real para dolar utilizando a cotação do dia. |
+| `Calculadora` |Vamos criar uma calculadora com as 4 operações matemáticas básicas? rs
+
+    a) Deverá ser possível escolher uma operação aritimética em forma de string: 'soma', 'multiplicacao', 'divisao' e 'subtracao'
+    b) Deverá ser possível passar 2 números para a operação escolhida
+    c) Deverá retornar o resultado e imprimir no console
 
 
 <br>
@@ -241,19 +246,13 @@ Resolva as questões abaixo:
   - Se a media for maior e igual a cinco e menor que 7 - Recuperação
   - Se a media for menor que 5 - Reprovado
 
-4 - Crie uma variavel que retorna a palavra (impar/par) de acordo com seu parâmetro.
+4 - Crie uma função que retorna a palavra (impar/par) de acordo com seu parâmetro.
 
-5 - Crie uma variavel que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
+5 - Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
 
 6 - crie um algoritmo que converte dias em horas, quando recebe um número de dias.
 
 7 - Crie uma função que recebe 2 parâmetros e retorna o resultado da divisão entre eles. Além disso, se o resto dessa divisão for zero deverá imprimir no console o valor e dizer que ele é par.
-
-8 - Vamos criar uma calculadora com as 4 operações matemáticas básicas? rs
-
-a) Deverá ser possível escolher uma operação aritimética em forma de string: 'soma', 'multiplicacao', 'divisao' e 'subtracao'
-b) Deverá ser possível passar 2 números para a operação escolhida
-c) Deverá retornar o resultado e imprimir no console
 
 ```
 
