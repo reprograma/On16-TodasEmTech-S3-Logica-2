@@ -151,6 +151,7 @@ if (mes === 'fevereiro') {
 
 ```
 let diaDaSemana = 'segunda'
+
 switch (diaDaSemana) {
     case 'domingo':
         console.log('Domingou')
@@ -203,7 +204,7 @@ Atenção para as palavras reservadas case, break e default.
 
 | Exemplo 07 | Descrição |
 | --- | --- |
-| `Multiplica` | Crie uma função que recebe 2 parâmetros e retorna a multiplicação entre else. |
+| `Multiplica` | Crie uma função que recebe 2 parâmetros e retorna a multiplicação entre eles. |
 
 | Exemplo 08 | Descrição |
 | --- | --- |
@@ -252,8 +253,7 @@ Resolva as questões abaixo:
 
 6 - crie um algoritmo que converte dias em horas, quando recebe um número de dias.
 
-7 - Crie uma função que recebe 2 parâmetros e retorna o resultado da divisão entre eles. Além disso, se o resto dessa divisão for zero deverá imprimir no console o valor e dizer que ele é par.
-
+7 - Crie uma função que recebe 2 parâmetros e retorna o resultado da divisão entre eles. Diga se esse numero é par ou ímpar.
 ```
 
 2) Suba esse projeto no github, atualize o read me contando tudo o que você aprendeu e usou. Suba o link do seu repositório no classroom da turma na entrega da semana.  A entrega pode ser feita até sexta.
